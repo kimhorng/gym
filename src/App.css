@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @media screen and (max-width: 1020px) {
+  .bg {
+    background: url("./assets//image//EvolveText.png");
+    background-repeat: no-repeat;
+    background-position: 50px 60px;
+  }
+} */
+nav {
+  padding: 18px 0;
+  /* padding: 10px 0; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
+nav.scrolled {
+  padding: 10px 0;
+  background-color: rgb(253 232 232 /1);
+}
+@media screen and (min-width: 1350px) {
+  .bg {
+    background: url("./assets//image//EvolveText.png");
+    background-repeat: no-repeat;
+    background-position: 50px 60px;
+  }
+
+  .bg1 {
+    background: url("./assets//image//EvolveText.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 50px;
+  }
+}
