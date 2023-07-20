@@ -43,7 +43,7 @@ const Navbar = () => {
 
           <div className="text-center flex lg:hidden">
             <button
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               type="button"
               data-drawer-target="drawer-right-example"
               data-drawer-show="drawer-right-example"
@@ -74,7 +74,7 @@ const Navbar = () => {
             tabindex="-1"
             aria-labelledby="drawer-right-label"
           >
-            <a href="https://flowbite.com/" className="flex items-center">
+            <a href="/" className="flex items-center">
               <img src={logo} className="h-8 mr-3" alt="Flowbite Logo" />
             </a>
             <button
@@ -100,7 +100,7 @@ const Navbar = () => {
               </svg>
               <span className="sr-only">Close menu</span>
             </button>
-            <div className="py-10">
+            <div className="">
               <ul className="text-2xl leading-10">
                 <li>
                   <p

@@ -3,7 +3,7 @@ import HomePageText from "../assets/image/HomePageText.png";
 import HomePageGraphic from "../assets/image/HomePageGraphic.png";
 const Banner = () => {
   return (
-    <section id="home" className="bg-orange-50">
+    <section id="home" className="bg-orange-50 py-28">
       <section className="bg">
         <div className="container grid lg:grid-cols-2  align-items-center w-10/12 mx-auto pt-10 lg:py-0">
           <div className={`grid items-center `}>
